@@ -261,6 +261,12 @@ header .navbar ul li a:hover{
     padding: 2rem;
     margin:2rem;
 }
+.about .row .counter .box:hover{
+    transform: scale(0.8);
+    /* transition-timing-function:ease-out; */
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
 
 .about .row .counter .box span{
     font-size: 4rem;
