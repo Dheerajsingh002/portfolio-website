@@ -46,20 +46,20 @@ body{
 }
 @keyframes example{
     0%{
-        background-color: red;
+        background-color: rgb(243, 166, 166);
     }
     25%{
-        background-color: yellow;
+        background-color: rgb(242, 242, 150);
 
     }
     50%{
-        background: blue;
+        background: rgb(171, 171, 239);
     }
     75%{
-        background-color: antiquewhite;
+        background-color: rgb(245, 218, 181);
     }
     100%{
-        background-color: rgb(244, 148, 13);
+        background-color: rgb(219, 249, 147);
     }
 
 }
@@ -113,28 +113,29 @@ header{
     justify-content: center;
     flex-flow: column;
     text-align: center;
-    animation-name: example;
+    animation-name: example1;
     animation-duration: 2s;
     animation-iteration-count: infinite;
    
     }
     
-@keyframes example{
+@keyframes example1{
     0%{
-        background-color: red;
+        
+        background-color: rgb(154, 160, 99);
     }
     25%{
-        background-color: yellow;
+        background-color: rgb(83, 146, 146);
 
     }
     50%{
-        background: blue;
+        background: rgb(87, 87, 139);
     }
     75%{
-        background-color: antiquewhite;
+        background-color: rgb(224, 144, 212);
     }
     100%{
-        background-color: rgb(244, 148, 13);
+        background-color: rgb(97, 77, 112);
     }
 
 }
@@ -180,6 +181,7 @@ header .navbar ul li a{
 
 header .navbar ul li a:hover{
     background:var(--yellow);
+    width:200px;
 }
 
 #menu{
